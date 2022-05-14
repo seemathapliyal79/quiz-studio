@@ -8,5 +8,6 @@ public class QuizRunner {
         option.add("no");
         TrueFalse question1 = new TrueFalse("Are you human?", "Yes",option, 1 );
         System.out.println(question1.askQuestion());
+        System.out.println(question1.gradeQuestions());
     }
 }
